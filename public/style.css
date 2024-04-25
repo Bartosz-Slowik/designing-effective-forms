@@ -1,0 +1,54 @@
+.modal {
+    background: #c6d0ff7a;
+}
+h3 {
+    text-align: center;
+}
+.form-check{
+    margin-right: 20px;
+}
+.form-check-input {
+    position: relative;
+    border: 1px solid #000;
+    outline: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.form-check-input:checked {
+    background: #000;
+}
+.grid-input {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+}
+fieldset {
+    border: 1px solid #ccc; /* Light grey border */
+    padding: 2px 2px 2px 10px; /* Adjusted padding inside the fieldset */
+    margin-bottom: 0px; /* Margin at the bottom */
+    position: relative; /* Needed for positioning the legend */
+}
+
+legend {
+    white-space: nowrap;
+    font-size: 0.8rem; /* Makes the legend text smaller */
+    width: 0;
+    position: absolute; /* Position it absolutely within the fieldset */
+    top: -10px; /* Reduced gap by adjusting this value */
+    left: 10px; /* Adjust this value to move the legend horizontally */
+    background: #fff; /* Background color of the page or container */
+    padding: 0px; /* Adds padding around the legend text */
+
+}
+.form-control{
+    padding: 5px;
+    margin: 0px;
+}
+label{
+    font-size: small
+}
